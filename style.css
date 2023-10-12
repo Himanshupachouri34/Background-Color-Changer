@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #212121;
+    padding: 20px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#home, #github{
+    text-align: center;
+    border: 1px solid white;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    position: absolute;
+    padding: 20px;
+}
+
+.button{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#Light-Pink{
+    background-color: lightpink;
+}
+#Coral{
+    background-color: coral;
+}
+#skyblue{
+    background-color: skyblue;
+}
+#Levender{
+    background-color: rgb(204, 155, 239);
+}
